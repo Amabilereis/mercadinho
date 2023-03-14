@@ -1,0 +1,756 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+      <meta charset="UTF-8">
+      <meta http-equiv="X-UA-Compatible" content="IE=edge">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <link rel="icon" href="./logoA.ico" type="image" />
+
+      <link rel="canonical" href="https://v5.getbootstrap.com/docs/5.0/examples/album/">
+      <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/5.0.0-alpha1/css/bootstrap.min.css" integrity="sha384-r4NyP46KrjDleawBgD5tp8Y7UzmLA05oM1iAEQ17CSuDqnUK2+k9luXQOfXJCJ4I" crossorigin="anonymous">
+      <script src="https://stackpath.bootstrapcdn.com/bootstrap/5.0.0-alpha1/js/bootstrap.min.js" integrity="sha384-oesi62hOLfzrys4LxRF63OJCXdXDipiYWBnvTl9Y9/TRlw5xlKIEHpNyvvDShgf/" crossorigin="anonymous"></script>
+      <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+
+
+      <style>
+        @import url('https://fonts.googleapis.com/css2?family=Radio+Canada:wght@700&display=swap');
+      </style>
+
+      <style>
+        @import url('https://fonts.googleapis.com/css2?family=Radio+Canada:wght@300;400&display=swap');
+      </style>
+
+      <link rel="stylesheet" href="style.css">
+
+    <style>
+      .bd-placeholder-img {
+        font-size: 1.125rem;
+        text-anchor: middle;
+        -webkit-user-select: none;
+        -moz-user-select: none;
+        -ms-user-select: none;
+        user-select: none;
+      }
+
+      @media (min-width: 768px) {
+        .bd-placeholder-img-lg {
+          font-size: 3.5rem;
+        }
+      }
+    </style> 
+    <link rel="stylesheet" href="style2.css">
+    <title>Supermercado A</title>
+  </head>
+  <body>
+    <header>
+      <div class="collapse" id="navbarHeader">
+        <div class="container">
+          <div class="row">
+            <div class="col-sm-8 col-md-7 py-4">
+              <h4 class="text">Sobre nós</h4>
+              <p class="text">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Hic eos totam odio exercitationem praesentium animi. Vel ducimus vero ipsa accusantium! Minus ex nam dolorum ratione quod nostrum? Debitis, omnis pariatur?</p>
+            </div>
+            <div class="col-sm-4 offset-md-1 py-4">
+              <h4 class="text">Contato</h4>
+              <ul class="list-unstyled">
+              <p href="#" class="text">Telefone: +55 11 99005-9005</p>
+              <p href="#" class="text">E-mail: mercadoa@email.com.br</p>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+        
+      <div class="navbar navbar1 navbar-dark  shadow-sm">   
+        <div class="container">
+          <a href="#" class="navbar-brand d-flex align-items-center">
+            <h3>Supermercado </h3>
+            <img src="./logoA.png" width="60" height="60" fill="none" stroke="currentColor"
+            stroke-linecap="round" stroke-linejoin="round" stroke-width="2" aria-hidden="true" class="mr-2"
+            viewBox="0 0 24 24">
+            <path d="M23 19a2 2 0 0 1-2 2H3a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h4l2-3h6l2 3h4a2 2 0 0 1 2 2z" />
+            <circle cx="12" cy="13" r="4" /></svg> 
+          </a>
+          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarHeader"
+            aria-controls="navbarHeader" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+        </div>
+      </div> <!-- Aqui termina o código pronto do BOOTSTRAP -->
+
+
+      <!-- Inicio do código da Barra de Navegação -->
+      <div class="" id="navbarToggleExternalContent"> 
+       <nav class="navbar navbar2 navbar-dark bg-dark">
+        <div class="container-fluid">
+          
+          <li><a href="#c1">Carnes/Frango</a></li>
+          <li><a href="#c2">Margarinas</a></li>
+          <li><a href="#c3">Grãos</a></li>
+          <li><a href="#c4">Temperos</a></li>
+          <li><a href="#c5">Doces</a></li>
+          <li><a href="#c6">Bebidas</a></li>
+          <li><a href="#c7">Higiene e limpeza</a></li>
+          <li><a href="#c8">Verduras e Legumes</a></li>
+          <li><a href="#c9">Frutas</a></li>
+          <li><a href="#c10">Peixes e derivados</a></li>
+          <li><a href="#c11">Contatos</a></li>
+          
+        </div>
+        </div>
+      </nav>      
+    </header>
+
+    <main><!-- Aqui temos o total de 10 seções. O ID serviu para fazer o link dos itens relacionados a barra, e a Class foi criada para possível edição no CSS-->               
+      <div class="container2">
+        <section id="c1" class="c">
+          <h4>Carnes/Frangos</h4>
+        </section>
+
+        <div class="card" style="width: 18rem;">
+          <div class="imagem"><img src="./IMG/1_CarnesFrango/img1.png" class="card-img-top" id="imgcard" style="object-fit: contain;"></div>
+          <div class="card-body">
+            <p class="card-text">Picanha Friboi tradicional peça a vácuo 1kg</p>
+            <p class="card-text" id="preco"><strong>R$ 57,99</strong></p>
+            <button type="button" class="btn btn-sm btn-outline-primary">Comprar agora</button>
+          </div>
+        </div>
+
+        <div class="card" style="width: 18rem;">
+          <div class="imagem"><img src="./IMG/1_CarnesFrango/img2.png" class="card-img-top" id="imgcard"></div>
+          <div class="card-body">
+            <p class="card-text">Fraldinha Friboi peça kg</p>
+            <p class="card-text" id="preco"><strong>R$ 36,99</strong></p>
+            <button type="button" class="btn btn-sm btn-outline-primary">Comprar agora</button>
+          </div>
+        </div>
+
+        <div class="card" style="width: 18rem;">
+            <div class="imagem"><img src="./IMG/1_CarnesFrango/img3.png" class="card-img-top" id="imgcard"></div>
+          <div class="card-body">
+            <p class="card-text">Contrafilé pedaço kg</p>
+            <p class="card-text" id="preco"><strong>R$ 41,99</strong></p>
+            <button type="button" class="btn btn-sm btn-outline-primary">Comprar agora</button>
+          </div>
+        </div>
+
+        <div class="card" style="width: 18rem;">
+          <div class="imagem"><img src="./IMG/1_CarnesFrango/img4.png" class="card-img-top" id="imgcard"></div>
+          <div class="card-body">
+            <p class="card-text">Paleta de cordeiro Do Chef congelada peça kg</p>
+            <p class="card-text" id="preco"><strong>R$ 45,99</strong></p>
+            <button type="button" class="btn btn-sm btn-outline-primary">Comprar agora</button>
+          </div>
+        </div>
+
+        <div class="card" style="width: 18rem;">
+          <div class="imagem"><img src="./IMG/1_CarnesFrango/img5.png" class="card-img-top" id="imgcard"></div>
+          <div class="card-body">
+            <p class="card-text">Cupim Friboi pedaço kg</p>
+            <p class="card-text" id="preco"><strong>R$ 36,99</strong></p>
+            <button type="button" class="btn btn-sm btn-outline-primary">Comprar agora</button>
+          </div>
+        </div>
+
+        <div class="card" style="width: 18rem;">
+          <div class="imagem"><img src="./IMG/1_CarnesFrango/img6.png" class="card-img-top" id="imgcard"></div>
+          <div class="card-body">
+            <p class="card-text">Picanha suína Pamplona temperada resfriada peça kg</p>
+            <p class="card-text" id="preco"><strong>R$ 26,99</strong></p>
+            <button type="button" class="btn btn-sm btn-outline-primary">Comprar agora</button>
+          </div>
+        </div>
+
+        <div class="card" style="width: 18rem;">
+          <div class="imagem"><img src="./IMG/1_CarnesFrango/img7.png" class="card-img-top" id="imgcard"></div>
+          <div class="card-body">
+            <p class="card-text">Costela suína Perdigão a granel kg</p>
+            <p class="card-text" id="preco"><strong>R$ 21,99</strong></p>
+            <button type="button" class="btn btn-sm btn-outline-primary">Comprar agora</button>
+          </div>
+        </div>
+
+        <div class="card" style="width: 18rem;">
+          <div class="imagem"><img src="./IMG/1_CarnesFrango/img8.png" class="card-img-top" id="imgcard"></div>
+          <div class="card-body">
+            <p class="card-text">Bisteca suína Sadia a granel kg</p>
+            <p class="card-text" id="preco"><strong>R$ 17,99</strong></p>
+            <button type="button" class="btn btn-sm btn-outline-primary">Comprar agora</button>
+          </div>
+        </div>
+
+        <div class="card" style="width: 18rem;">
+          <div class="imagem"><img src="./IMG/1_CarnesFrango/img9.png" class="card-img-top" id="imgcard"></div>
+          <div class="card-body">
+            <p class="card-text">Coxinha da asa de frango a granel kg</p>
+            <p class="card-text" id="preco"><strong>R$ 14,99</strong></p>
+            <button type="button" class="btn btn-sm btn-outline-primary">Comprar agora</button>
+          </div>
+        </div>
+
+      </div>
+      <!-- ****************************************************** -->
+      <div class="container2">
+        <section id="c2" class="c">
+          <h4>Margarinas</h4>
+        </section>
+
+        <div class="card" style="width: 18rem;">
+          <div class="imagem"><img src="./IMG/2_Margarinas/img12.png" class="card-img-top" id="imgcard"></div>
+          <div class="card-body">
+            <p class="card-text">Margarina Qualy tradicional 500 g</p>
+            <p class="card-text" id="preco"><strong>R$ 4,99</strong></p>
+            <button type="button" class="btn btn-sm btn-outline-primary">Comprar agora</button>
+          </div>
+        </div>
+
+      </div>
+      <!-- ****************************************************** -->
+      <div class="container2">
+        <section id="c3" class="c">
+          <h4>Grãos</h4>
+        </section>
+
+        <div class="card" style="width: 18rem;">
+          <div class="imagem"><img src="./IMG/3_Graos/img13.png" class="card-img-top" id="imgcard"></div>
+          <div class="card-body">
+            <p class="card-text">Arroz branco Blue Ville tipo 1 5 kg</p>
+            <p class="card-text" id="preco"><strong>R$ 22,98</strong></p>
+            <button type="button" class="btn btn-sm btn-outline-primary">Comprar agora</button>
+          </div>
+        </div>
+      </div>
+      <!-- ****************************************************** -->
+      <div class="container2">
+        <section id="c4" class="c">
+          <h4>Temperos</h4>
+        </section>
+
+        <div class="card" style="width: 18rem;">
+          <div class="imagem"><img src="./IMG/4_Temperos/img14.png" class="card-img-top" id="imgcard"></div>
+          <div class="card-body">
+            <p class="card-text">Azeite de oliva Gallo clássico extra virgem vidro 500 ml</p>
+            <p class="card-text" id="preco"><strong>R$ 19,99</strong></p>
+            <button type="button" class="btn btn-sm btn-outline-primary">Comprar agora</button>
+          </div>
+        </div>
+      </div>
+      <!-- ****************************************************** -->            
+
+      <div class="container2">
+        <section id="c5" class="c">
+          <h4>Doces</h4>
+        </section>
+
+        <div class="card" style="width: 18rem;">
+          <div class="imagem"><img src="./IMG/5_Doces/img15.png" class="card-img-top" id="imgcard"></div>
+          <div class="card-body">
+            <p class="card-text">Leite condensado Moça semidesnatado TP 395 g</p>
+            <p class="card-text" id="preco"><strong>R$ 4,69</strong></p>
+            <button type="button" class="btn btn-sm btn-outline-primary">Comprar agora</button>
+          </div>
+        </div>
+
+        <div class="card" style="width: 18rem;">
+          <div class="imagem"><img src="./IMG/5_Doces/img16.png" class="card-img-top" id="imgcard"></div>
+          <div class="card-body">
+            <p class="card-text">Chocolate em tablete Lacta sabores 90 g</p>
+            <p class="card-text" id="preco"><strong>R$ 4,19</strong></p>
+            <button type="button" class="btn btn-sm btn-outline-primary">Comprar agora</button>
+          </div>
+        </div>
+
+        <div class="card" style="width: 18rem;">
+          <div class="imagem"><img src="./IMG/5_Doces/img17.png" class="card-img-top" id="imgcard"></div>
+          <div class="card-body">
+            <p class="card-text">Chocolate Lindt Lindor Milk ou Swiss Classic 100 g</p>
+            <p class="card-text" id="preco"><strong>R$ 19,90</strong></p>
+            <button type="button" class="btn btn-sm btn-outline-primary">Comprar agora</button>
+          </div>
+        </div>
+      </div>
+
+      <!-- ****************************************************** -->
+      <div class="container2">
+        <section id="c6" class="c">
+          <h4>Bebidas</h4>
+        </section>
+
+        <div class="card" style="width: 18rem;">
+          <div class="imagem"><img src="./IMG/6_Bebidas/img18.png" class="card-img-top" id="imgcard"></div>
+          <div class="card-body">
+            <p class="card-text">Refrigerante H2OH! sabores pet 1,5 L</p>
+            <p class="card-text" id="preco"><strong>R$ 4,99</strong></p>
+            <button type="button" class="btn btn-sm btn-outline-primary">Comprar agora</button>
+          </div>
+        </div>
+
+        <div class="card" style="width: 18rem;">
+          <div class="imagem"><img src="./IMG/6_Bebidas/img19.png" class="card-img-top" id="imgcard"></div>
+          <div class="card-body">
+            <p class="card-text">Cerveja Bohemia puro malte lata 350 ml</p>
+            <p class="card-text" id="preco"><strong>R$ 2,49</strong></p>
+            <button type="button" class="btn btn-sm btn-outline-primary">Comprar agora</button>
+          </div>
+        </div>
+
+        <div class="card" style="width: 18rem;">
+          <div class="imagem"><img src="./IMG/6_Bebidas/img20.png" class="card-img-top" id="imgcard"></div>
+          <div class="card-body">
+            <p class="card-text">Vinho Espumante Casa Perini moscatel branco 750 ml</p>
+            <p class="card-text" id="preco"><strong>R$ 46,99</strong></p>
+            <button type="button" class="btn btn-sm btn-outline-primary">Comprar agora</button>
+          </div>
+        </div>
+        
+        <div class="card" style="width: 18rem;">
+          <div class="imagem"><img src="./IMG/6_Bebidas/img21.png" class="card-img-top" id="imgcard"></div>
+          <div class="card-body">
+            <p class="card-text">Vinho Espumante Salton moscatel branco 750 ml</p>
+            <p class="card-text" id="preco"><strong>R$ 29,90</strong></p>
+            <button type="button" class="btn btn-sm btn-outline-primary">Comprar agora</button>
+          </div>
+        </div>
+
+        <div class="card" style="width: 18rem;">
+          <div class="imagem"><img src="./IMG/6_Bebidas/img22.png" class="card-img-top" id="imgcard"></div>
+          <div class="card-body">
+            <p class="card-text">Vinho Salton Intenso merlot tinto 750 ml</p>
+            <p class="card-text" id="preco"><strong>R$ 31,90</strong></p>
+            <button type="button" class="btn btn-sm btn-outline-primary">Comprar agora</button>
+          </div>
+        </div>
+
+        <div class="card" style="width: 18rem;">
+          <div class="imagem"><img src="./IMG/6_Bebidas/img23.png" class="card-img-top" id="imgcard"></div>
+          <div class="card-body">
+            <p class="card-text">Vinho Frisante Mioranza suave rosé 750 ml</p>
+            <p class="card-text" id="preco"><strong>R$ 19,90</strong></p>
+            <button type="button" class="btn btn-sm btn-outline-primary">Comprar agora</button>
+          </div>
+        </div>
+
+        <div class="card" style="width: 18rem;">
+          <div class="imagem"><img src="./IMG/6_Bebidas/img24.png" class="card-img-top" id="imgcard"></div>
+          <div class="card-body">
+            <p class="card-text">Vinho Frances Bois Mirail Rouge tinto 750 ml</p>
+            <p class="card-text" id="preco"><strong>R$ 31,90</strong></p>
+            <button type="button" class="btn btn-sm btn-outline-primary">Comprar agora</button>
+          </div>
+        </div>
+
+        <div class="card" style="width: 18rem;">
+          <div class="imagem"><img src="./IMG/6_Bebidas/img25.png" class="card-img-top" id="imgcard"></div>
+          <div class="card-body">
+            <p class="card-text">Vinho Chileno Tres Toros cabernet sauvignon tinto 750 ml</p>
+            <p class="card-text" id="preco"><strong>R$ 29,90</strong></p>
+            <button type="button" class="btn btn-sm btn-outline-primary">Comprar agora</button>
+          </div>
+        </div>
+
+        <div class="card" style="width: 18rem;">
+          <div class="imagem"><img src="./IMG/6_Bebidas/img26.png" class="card-img-top" id="imgcard"></div>
+          <div class="card-body">
+            <p class="card-text">Vinho Português Terra Mãe tinto 750 ml</p>
+            <p class="card-text" id="preco"><strong>R$ 30,90</strong></p>
+            <button type="button" class="btn btn-sm btn-outline-primary">Comprar agora</button>
+          </div>
+        </div>
+      </div>
+      <!-- ****************************************************** -->
+
+      <div class="container2">
+        <section id="c7" class="c">
+          <h4>Higiene e limpeza</h4>
+        </section>
+
+        <div class="card" style="width: 18rem;">
+          <div class="imagem"><img src="./IMG/7_Higiene e limpeza/img27.png" class="card-img-top" id="imgcard"></div>
+          <div class="card-body">
+            <p class="card-text">Kit enxaguante bucal Colgate Plax Total 12 500 ml + Plax 250 ml</p>
+            <p class="card-text" id="preco"><strong>R$ 19,69</strong></p>
+            <button type="button" class="btn btn-sm btn-outline-primary">Comprar agora</button>
+          </div>
+        </div>
+        
+        <div class="card" style="width: 18rem;">
+          <div class="imagem"><img src="./IMG/7_Higiene e limpeza/img28.png" class="card-img-top" id="imgcard"></div>
+          <div class="card-body">
+            <p class="card-text">Kit toalha umedecida Johnson’s c/ 48 unidades Leve 4 Pague 3</p>
+            <p class="card-text" id="preco"><strong>R$ 32,89</strong></p>
+            <button type="button" class="btn btn-sm btn-outline-primary">Comprar agora</button>
+          </div>
+        </div>
+        
+        <div class="card" style="width: 18rem;">
+          <div class="imagem"><img src="./IMG/7_Higiene e limpeza/img29.png" class="card-img-top" id="imgcard"></div>
+          <div class="card-body">
+            <p class="card-text">Lava roupas concentrado Ariel fragrâncias 1,2 L</p>
+            <p class="card-text" id="preco"><strong>R$ 19,90</strong></p>
+            <button type="button" class="btn btn-sm btn-outline-primary">Comprar agora</button>
+          </div>
+        </div>
+          
+        <div class="card" style="width: 18rem;">
+          <div class="imagem"><img src="./IMG/7_Higiene e limpeza/img30.png" class="card-img-top" id="imgcard"></div>
+          <div class="card-body">
+            <p class="card-text">Limpador Veja Gold multiuso original 500 ml com 10% de desconto</p>
+            <p class="card-text" id="preco"><strong>R$ 2,99</strong></p>
+            <button type="button" class="btn btn-sm btn-outline-primary">Comprar agora</button>
+          </div>
+        </div>
+
+        <div class="card" style="width: 18rem;">
+          <div class="imagem"><img src="./IMG/7_Higiene e limpeza/img31.png" class="card-img-top" id="imgcard"></div>
+          <div class="card-body">
+            <p class="card-text">Papel higiênico Neve folha dupla ou tripla 20/30 metros com 4 unidades</p>
+            <p class="card-text" id="preco"><strong>R$ 6,99</strong></p>
+            <button type="button" class="btn btn-sm btn-outline-primary">Comprar agora</button>
+          </div>
+        </div>
+
+      </div>
+      <!-- ****************************************************** -->
+
+      <div class="container2">
+        <section id="c8" class="c">
+          <h4>Verduras e Legumes</h4>
+        </section>
+
+        <div class="card" style="width: 18rem;">
+          <div class="imagem"><img src="./IMG/8_Verduras e Legumes/img32.png" class="card-img-top" id="imgcard"></div>
+          <div class="card-body">
+            <p class="card-text">Abobrinha italiana kg</p>
+            <p class="card-text" id="preco"><strong>R$ 1,99</strong></p>
+            <button type="button" class="btn btn-sm btn-outline-primary">Comprar agora</button>
+          </div>
+        </div>
+
+        <div class="card" style="width: 18rem;">
+          <div class="imagem"><img src="./IMG/8_Verduras e Legumes/img33.png" class="card-img-top" id="imgcard"></div>
+          <div class="card-body">
+            <p class="card-text">Alho Roxo cada 100g</p>
+            <p class="card-text" id="preco"><strong>R$ 2,89</strong></p>
+            <button type="button" class="btn btn-sm btn-outline-primary">Comprar agora</button>
+          </div>
+        </div>
+      
+        <div class="card" style="width: 18rem;">
+          <div class="imagem"><img src="./IMG/8_Verduras e Legumes/img34.png" class="card-img-top" id="imgcard"></div>
+          <div class="card-body">
+            <p class="card-text">Batata doce rosada kg</p>
+            <p class="card-text" id="preco"><strong>R$ 1,99</strong></p>
+            <button type="button" class="btn btn-sm btn-outline-primary">Comprar agora</button>
+          </div>
+        </div>
+
+        <div class="card" style="width: 18rem;">
+          <div class="imagem"><img src="./IMG/8_Verduras e Legumes/img35.png" class="card-img-top" id="imgcard"></div>
+          <div class="card-body">
+            <p class="card-text">Berinjela kg</p>
+            <p class="card-text" id="preco"><strong>R$ 3,89</strong></p>
+            <button type="button" class="btn btn-sm btn-outline-primary">Comprar agora</button>
+          </div>
+        </div>
+      
+        <div class="card" style="width: 18rem;">
+          <div class="imagem"><img src="./IMG/8_Verduras e Legumes/img36.png" class="card-img-top" id="imgcard"></div>
+          <div class="card-body">
+            <p class="card-text">Cebola kg</p>
+            <p class="card-text" id="preco"><strong>R$ 4,49</strong></p>
+            <button type="button" class="btn btn-sm btn-outline-primary">Comprar agora</button>
+          </div>
+        </div>
+
+        <div class="card" style="width: 18rem;">
+          <div class="imagem"><img src="./IMG/8_Verduras e Legumes/img37.png" class="card-img-top" id="imgcard"></div>
+          <div class="card-body">
+            <p class="card-text">Cenoura kg</p>
+            <p class="card-text" id="preco"><strong>R$ 2,29</strong></p>
+            <button type="button" class="btn btn-sm btn-outline-primary">Comprar agora</button>
+          </div>
+        </div>
+
+        <div class="card" style="width: 18rem;">
+          <div class="imagem"><img src="./IMG/8_Verduras e Legumes/img42.png" class="card-img-top" id="imgcard"></div>
+          <div class="card-body">
+            <p class="card-text">Mandioquinha kg</p>
+            <p class="card-text" id="preco"><strong>R$ 6,99</strong></p>
+            <button type="button" class="btn btn-sm btn-outline-primary">Comprar agora</button>
+          </div>
+        </div>
+      
+        <div class="card" style="width: 18rem;">
+          <div class="imagem"><img src="./IMG/8_Verduras e Legumes/img44.png" class="card-img-top" id="imgcard"></div>
+          <div class="card-body">
+            <p class="card-text">Pepino japonês kg</p>
+            <p class="card-text" id="preco"><strong>R$ 2,99</strong></p>
+            <button type="button" class="btn btn-sm btn-outline-primary">Comprar agora</button>
+          </div>
+        </div>
+
+        <div class="card" style="width: 18rem;">
+          <div class="imagem"><img src="./IMG/8_Verduras e Legumes/img45.png" class="card-img-top" id="imgcard"></div>
+          <div class="card-body">
+            <p class="card-text">Pimentão verde kg</p>
+            <p class="card-text" id="preco"><strong>R$ 3,79</strong></p>
+            <button type="button" class="btn btn-sm btn-outline-primary">Comprar agora</button>
+          </div>
+        </div>
+      
+        <div class="card" style="width: 18rem;">
+          <div class="imagem"><img src="./IMG/8_Verduras e Legumes/img46.png" class="card-img-top" id="imgcard"></div>
+          <div class="card-body">
+            <p class="card-text">Tomate carmem kg</p>
+            <p class="card-text" id="preco"><strong>R$ 3,99</strong></p>
+            <button type="button" class="btn btn-sm btn-outline-primary">Comprar agora</button>
+          </div>
+        </div>
+
+        <div class="card" style="width: 18rem;">
+          <div class="imagem"><img src="./IMG/8_Verduras e Legumes/img47.png" class="card-img-top" id="imgcard"></div>
+          <div class="card-body">
+            <p class="card-text">Tomate Grape Mel Trebeschi 180 g</p>
+            <p class="card-text" id="preco"><strong>R$ 2,39</strong></p>
+            <button type="button" class="btn btn-sm btn-outline-primary">Comprar agora</button>
+          </div>
+        </div>
+
+      </div>
+      <!-- ****************************************************** -->
+
+      <div class="container2">
+        <section id="c9" class="c">
+          <h4>Frutas</h4>
+        </section>
+
+        <div class="card" style="width: 18rem;">
+          <div class="imagem"><img src="./IMG/9_Frutas/img48.png" class="card-img-top" id="imgcard"></div>
+          <div class="card-body">
+            <p class="card-text">Abacaxi pérola unid.</p>
+            <p class="card-text" id="preco"><strong>R$ 5,39</strong></p>
+            <button type="button" class="btn btn-sm btn-outline-primary">Comprar agora</button>
+          </div>
+        </div>
+
+        <div class="card" style="width: 18rem;">
+          <div class="imagem"><img src="./IMG/9_Frutas/img49.png" class="card-img-top" id="imgcard"></div>
+          <div class="card-body">
+            <p class="card-text">Abacate kg</p>
+            <p class="card-text" id="preco"><strong>R$ 4,59</strong></p>
+            <button type="button" class="btn btn-sm btn-outline-primary">Comprar agora</button>
+          </div>
+        </div>
+
+        <div class="card" style="width: 18rem;">
+          <div class="imagem"><img src="./IMG/9_Frutas/img50.png" class="card-img-top" id="imgcard"></div>
+          <div class="card-body">
+            <p class="card-text">Caqui fuyu kg</p>
+            <p class="card-text" id="preco"><strong>R$ 4,99</strong></p>
+            <button type="button" class="btn btn-sm btn-outline-primary">Comprar agora</button>
+          </div>
+        </div>
+
+        <div class="card" style="width: 18rem;">
+          <div class="imagem"><img src="./IMG/9_Frutas/img51.png" class="card-img-top" id="imgcard"></div>
+          <div class="card-body">
+            <p class="card-text">Goiaba vermelha kg</p>
+            <p class="card-text" id="preco"><strong>R$ 3,99</strong></p>
+            <button type="button" class="btn btn-sm btn-outline-primary">Comprar agora</button>
+          </div>
+        </div>
+
+        <div class="card" style="width: 18rem;">
+          <div class="imagem"><img src="./IMG/9_Frutas/img52.png" class="card-img-top" id="imgcard"></div>
+          <div class="card-body">
+            <p class="card-text">Laranja pera kg</p>
+            <p class="card-text" id="preco"><strong>R$ 2,79</strong></p>
+            <button type="button" class="btn btn-sm btn-outline-primary">Comprar agora</button>
+          </div>
+        </div>
+
+        <div class="card" style="width: 18rem;">
+          <div class="imagem"><img src="./IMG/9_Frutas/img53.png" class="card-img-top" id="imgcard"></div>
+          <div class="card-body">
+            <p class="card-text">Limão taiti kg</p>
+            <p class="card-text" id="preco"><strong>R$ 1,99</strong></p>
+            <button type="button" class="btn btn-sm btn-outline-primary">Comprar agora</button>
+          </div>
+        </div>
+
+        <div class="card" style="width: 18rem;">
+          <div class="imagem"><img src="./IMG/9_Frutas/img54.png" class="card-img-top" id="imgcard"></div>
+          <div class="card-body">
+            <p class="card-text">Maçã Fuji kg</p>
+            <p class="card-text" id="preco"><strong>R$ 4,99</strong></p>
+            <button type="button" class="btn btn-sm btn-outline-primary">Comprar agora</button>
+          </div>
+        </div>
+
+        <div class="card" style="width: 18rem;">
+          <div class="imagem"><img src="./IMG/9_Frutas/img55.png" class="card-img-top" id="imgcard"></div>
+          <div class="card-body">
+            <p class="card-text">Maçã Senninha pacote 1kg</p>
+            <p class="card-text" id="preco"><strong>R$ 4,49</strong></p>
+            <button type="button" class="btn btn-sm btn-outline-primary">Comprar agora</button>
+          </div>
+        </div>
+
+        <div class="card" style="width: 18rem;">
+          <div class="imagem"><img src="./IMG/9_Frutas/img56.png" class="card-img-top" id="imgcard"></div>
+          <div class="card-body">
+            <p class="card-text">Mamão papaya unid.</p>
+            <p class="card-text" id="preco"><strong>R$ 2,79</strong></p>
+            <button type="button" class="btn btn-sm btn-outline-primary">Comprar agora</button>
+          </div>
+        </div>
+
+        <div class="card" style="width: 18rem;">
+          <div class="imagem"><img src="./IMG/9_Frutas/img57.png" class="card-img-top" id="imgcard"></div>
+          <div class="card-body">
+            <p class="card-text">Manga tommy kg</p>
+            <p class="card-text" id="preco"><strong>R$ 3,99</strong></p>
+            <button type="button" class="btn btn-sm btn-outline-primary">Comprar agora</button>
+          </div>
+        </div>
+
+        <div class="card" style="width: 18rem;">
+          <div class="imagem"><img src="./IMG/9_Frutas/img58.png" class="card-img-top" id="imgcard"></div>
+          <div class="card-body">
+            <p class="card-text">Maracujá azedo kg</p>
+            <p class="card-text" id="preco"><strong>R$ 5,99</strong></p>
+            <button type="button" class="btn btn-sm btn-outline-primary">Comprar agora</button>
+          </div>
+        </div>
+        
+        <div class="card" style="width: 18rem;">
+          <div class="imagem"><img src="./IMG/9_Frutas/img59.png" class="card-img-top" id="imgcard"></div>
+          <div class="card-body">
+            <p class="card-text">Mexerica ponkan kg</p>
+            <p class="card-text" id="preco"><strong>R$ 2,89</strong></p>
+            <button type="button" class="btn btn-sm btn-outline-primary">Comprar agora</button>
+          </div>
+        </div>
+
+        <div class="card" style="width: 18rem;">
+          <div class="imagem"><img src="./IMG/9_Frutas/img60.png" class="card-img-top" id="imgcard"></div>
+          <div class="card-body">
+            <p class="card-text">Pera williams kg</p>
+            <p class="card-text" id="preco"><strong>R$ 7,99</strong></p>
+            <button type="button" class="btn btn-sm btn-outline-primary">Comprar agora</button>
+          </div>
+        </div>
+
+        <div class="card" style="width: 18rem;">
+          <div class="imagem"><img src="./IMG/9_Frutas/img61.png" class="card-img-top" id="imgcard"></div>
+          <div class="card-body">
+            <p class="card-text">Uva branca bandeja 500 g</p>
+            <p class="card-text" id="preco"><strong>R$ 5,99</strong></p>
+            <button type="button" class="btn btn-sm btn-outline-primary">Comprar agora</button>
+          </div>
+        </div>
+
+        <div class="card" style="width: 18rem;">
+          <div class="imagem"><img src="./IMG/9_Frutas/img62.png" class="card-img-top" id="imgcard"></div>
+          <div class="card-body">
+            <p class="card-text">Uva preta bandeja 500 g</p>
+            <p class="card-text" id="preco"><strong>R$ 6,49</strong></p>
+            <button type="button" class="btn btn-sm btn-outline-primary">Comprar agora</button>
+          </div>
+        </div>
+
+
+      </div>
+      <!-- ****************************************************** -->
+
+      <div class="container2">
+        <section id="c10" class="c">
+          <h4>Peixes e derivados</h4>
+        </section>
+
+        <div class="card" style="width: 18rem;">
+          <div class="imagem"><img src="./IMG/10_Peixes e derivados/img38.png" class="card-img-top" id="imgcard"></div>
+          <div class="card-body">
+            <p class="card-text">Tilápia inteira fresca kg</p>
+            <p class="card-text" id="preco"><strong>R$ 17,99</strong></p>
+            <button type="button" class="btn btn-sm btn-outline-primary">Comprar agora</button>
+          </div>
+        </div>
+
+        <div class="card" style="width: 18rem;">
+          <div class="imagem"><img src="./IMG/10_Peixes e derivados/img39.png" class="card-img-top" id="imgcard"></div>
+          <div class="card-body">
+            <p class="card-text">Tambaqui de cativeiro inteiro fresco kg</p>
+            <p class="card-text" id="preco"><strong>R$ 21,79</strong></p>
+            <button type="button" class="btn btn-sm btn-outline-primary">Comprar agora</button>
+          </div>
+        </div>
+
+        <div class="card" style="width: 18rem;">
+          <div class="imagem"><img src="./IMG/10_Peixes e derivados/img40.png" class="card-img-top" id="imgcard"></div>
+          <div class="card-body">
+            <p class="card-text">Pintado de cativeiro inteiro fresco kg</p>
+            <p class="card-text" id="preco"><strong>R$ 28,99</strong></p>
+            <button type="button" class="btn btn-sm btn-outline-primary">Comprar agora</button>
+          </div>
+        </div>
+
+        <div class="card" style="width: 18rem;">
+          <div class="imagem"><img src="./IMG/10_Peixes e derivados/img41.png" class="card-img-top" id="imgcard"></div>
+          <div class="card-body">
+            <p class="card-text">Camarão Oceani descascado cozido congelado 400g</p>
+            <p class="card-text" id="preco"><strong>R$ 39,99</strong></p>
+            <button type="button" class="btn btn-sm btn-outline-primary">Comprar agora</button>
+          </div>
+        </div>
+      </div>
+    </main>
+
+
+    <button type="button" class="topo btn btn-sm btn-outline-primary"><a href="#c1">VOLTAR AO TOPO DA PÁGINA</a></button>
+    
+    <footer class="text-muted py-5">
+      <section id="c11" class="cc">
+        <h4>Entre em contato conosco</h4> 
+        <br>
+        <div id="formulario">
+          <div class="mb-3">
+            <label for="exampleFormControlInput1" class="form-label">Nome</label>
+            <input type="text" class="form-control" id="exampleFormControlInput1" placeholder="Nome">
+          </div>
+          <div class="mb-3">
+            <label for="exampleFormControlInput1" class="form-label">Endereço de E-mail </label>
+            <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="E-mail">
+          </div>
+          <div class="mb-3">
+            <label for="exampleFormControlInput1" class="form-label">Assunto</label>
+            <input type="text" class="form-control" id="exampleFormControlInput1" placeholder="Assunto">
+          </div>
+          <div class="mb-3">
+            <label for="exampleFormControlTextarea1" class="form-label">Menssagem</label>
+            <textarea class="form-control" id="exampleFormControlTextarea1" placeholder="Menssagem" rows="3"></textarea>
+          </div>
+          <h4>Localização</h4>
+          <p>Avenida Regente Feijó, nº 1295 - Jardim Anália Franco - São Paulo/SP</p>
+          <div id="MAPS">
+            <div ><iframe width="400" height="400" src="https://maps.google.com/maps?width=700&amp;height=440&amp;hl=en&amp;q=%20Avenida%20Regente%20Feij%C3%B3%2C%201295%2C%20Jardim%20An%C3%A1lia%20Franco%2C%20S%C3%A3o%20Paulo%20-%20SP%2C%2003342-000+(Mercado%20A)&amp;ie=UTF8&amp;t=&amp;z=15&amp;iwloc=B&amp;output=embed" ></iframe>
+              <div style="position: absolute;width: 80%;bottom: 10px;left: 0;right: 0;margin-left: auto;margin-right: auto;color: #000;text-align: center;"><small style="line-height: 1.8;font-size: 2px;background: #fff;">Powered by <a href="embedgooglemaps.com/pt/">embedgooglemaps PT</a> & <a href="https://bastaonlinecasino.nu/">https://bastaonlinecasino.nu</a></small></div><style>#gmap_canvas img{max-width:none!important;background:none!important}</style></div><br />
+          </div>
+        </div>
+      </section>
+      <br>
+      <section class="alunos">
+        <div class="logos">
+        <a href="https://pt-br.facebook.com/"><img src="./IMG/Logo face.png" class="face"></a>
+        <a href="https://web.whatsapp.com/"><img src="./IMG/whats.png" class="whats"></a>
+        <a href="https://www.instagram.com"><img src="./IMG/insta.png" class="insta"></a>
+        </div>
+        <hr>
+      </section>
+
+      <div class="fim">
+        <p class=""> 2022&copy;</p>
+      </div>
+    </footer>
+  </body>
+</html>

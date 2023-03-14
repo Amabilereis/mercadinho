@@ -1,0 +1,249 @@
+*{
+    margin: 0;
+    padding: 0;
+    position: relative;
+}
+
+html{
+    scroll-padding-top: 130px;
+}
+
+header{
+    width: 100%;
+    position: sticky;
+    top: 0;
+    z-index: 1;
+    background-color: white;
+}
+
+.collapse{
+    color: black;
+    font-family: 'Radio Canada', sans-serif 300;
+}
+
+.navbar1{
+    background: repeating-linear-gradient(rgb(0, 43, 99), rgb(0, 73, 168), rgb(0, 110, 255));
+}
+
+.navbar2{
+    background: repeating-linear-gradient(rgb(0, 110, 255),rgb(0, 73, 168), rgb(0, 43, 99))
+
+}
+
+.container > h3{
+    font-family: 'Radio Canada', sans-serif;
+    font: 700;
+}
+
+.container-fluid{
+    text-decoration: none;
+    list-style: none;
+    color: white;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", sans-serif;
+    width: 100%;
+    align-items: center;
+    position: relative;
+}
+
+li a{
+    border-bottom: 3px solid transparent;   
+    color: white;
+    text-decoration: none;
+    gap: 2rem;
+}
+
+li a:hover{
+    border-bottom: 3px solid white;
+    color: white;
+}
+
+section{
+    justify-content: space-around;
+    width: 100%;
+    height: auto;
+    position: relative;
+    text-align: center;
+}
+
+.container2{
+    position: relative;
+    height: auto;
+    padding: 20px;
+    width: 100%;
+}
+
+main{
+    display: flex;
+    flex-direction: column;
+    justify-content: center, space-around;
+    flex-wrap: wrap;
+}
+
+.c{ /*Secões*/
+    display: flex;
+    background-color: rgb(233, 233, 233);
+    border-radius: 50px;
+    width: 400px;     
+    height: 40px;
+    margin-left: -100px;
+    color: rgb(0, 110, 255);
+    align-items: center;
+    position: relative;
+}
+
+.card{ /*Cards dos produtos*/
+    align-items: center;
+    margin: 20px;   
+    z-index: 0;
+    float: left;
+    width: 100%;
+    height: 350px;
+    margin-left: 1px;
+    display: inline-block;
+}
+
+.imagem{/*Referente ao campo que comporta as imagens dos produtos*/
+    width: 100%;
+    height: 10rem;
+    margin: 0px;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 20px;
+}
+
+.card .imagem .card-img-top{ /*Referente a imagem*/
+    position: relative;
+    max-width: 90%;
+    max-height: 10rem;
+    width: auto;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.card-body{
+    height: 140px;
+    position: relative;
+    margin-top: 1px;
+}
+
+.card-text{
+    height: 60px;
+    width: 100%;
+    margin: 0;
+    position: relative;
+}
+
+#preco{
+    color: rgb(0, 110, 255);
+    position: relative;
+    margin-top: 5px;
+}
+
+button{
+    cursor: pointer;
+    box-shadow: inset 0 0 0.2em rgb(0, 204, 255);
+    margin-top: -30px;
+}
+
+button:hover{
+    transform: rotate(-5deg);
+}
+
+footer {
+    background: repeating-linear-gradient(rgb(0, 110, 255), rgb(0, 73, 168), rgb(0, 43, 99));
+    color: white;
+    position: relative;
+}
+
+.card-header{
+    color: blue;
+    font-family: 'Radio Canada', sans-serif;
+    font: 700;
+}
+
+.btn-primary{
+    margin-bottom: 20px;
+    margin-top: 0;
+}
+
+.cc, .alunos {
+    color:white;
+}
+
+#formulario {
+    height: auto;
+    width: 400px;
+    margin: auto;
+
+}
+
+.MAPS {
+    position: relative;
+   
+    }
+
+.f4 {
+    text-align: center;
+}
+
+
+.alunos .logos .face, .whats {
+    height: 60px;
+    
+}
+
+.alunos .logos .insta{
+    height: 55px;
+    width: 50px;
+    margin-left: 5px;
+
+}
+
+.logos{
+    background-color: black;
+    align-items: center;
+    width: 100%;
+    text-align: center;
+}
+
+.fim {
+    text-align: center;
+}
+
+@media only screen and (min-width: 900px) and (max-width: 1269px)
+{ li a{
+    border: 1px white solid;
+    padding: 1px;
+    margin-right: 10px;
+    margin-bottom: 2px;
+    margin-top: 2px;
+    border-radius: 10px 10px;
+}
+
+html{
+    scroll-padding-top: 160px;
+}
+
+    
+    }
+
+@media only screen and (max-width: 900px){
+
+    li a{
+        border: 1px white solid;
+        padding: 1px;
+        margin-right: 10px;
+        margin-bottom: 2px;
+        margin-top: 2px;
+        border-radius: 10px 10px;
+    }
+
+    html{
+        scroll-padding-top: 200px;
+    }
+}
+

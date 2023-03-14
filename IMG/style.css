@@ -1,0 +1,61 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+.container_topo{
+    position: fixed;
+    margin: 0;
+    width: 100%;
+    text-decoration: none;
+    color: white;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", sans-serif;
+    background-color: white;
+    width: 100%;
+}
+
+.container_topo > label, img, input, button{
+    display: flex;
+    vertical-align: center;
+}
+
+label{
+    direction: right;
+    color: brown;
+}
+
+img{
+    width: 7%;
+    height: auto;
+}
+
+ul li a{
+    text-decoration: none;
+    color: white;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", sans-serif;
+    background-color: rgb(47, 54, 141);
+    width: 100%;
+}
+
+nav > ul{
+    list-style: none;
+    display: flex;
+    gap: 2rem;
+    position: fixed;
+    background-color: rgb(47, 54, 141);
+    height: 2rem;
+    width: 100%;
+    align-items: center;
+
+}
+
+section{
+    min-height: 100vh;
+    padding-top: 2rem;
+    justify-content: space-around;
+}
+
